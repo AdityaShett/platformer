@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+}
+
+#game {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid white;
+  background-color: #111;
+  overflow: hidden;
+}
+
+#player {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  top: 10px;
+  left: 10px;
+}
+
+.obstacle, .pit, .flag {
+  position: absolute;
+}
+
+.obstacle {
+  width: 20px;
+  height: 20px;
+  background: red;
+}
+
+.pit {
+  width: 40px;
+  height: 40px;
+  background: black;
+  border: 1px dashed white;
+}
+
+.flag {
+  width: 20px;
+  height: 20px;
+  background: green;
+}
